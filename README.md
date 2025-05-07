@@ -19,4 +19,10 @@ This R scripts:
 
 or run it (main.r) in RStudio.
 
-**Further details can be found in the publication:**
+Expected output is: <br>
+Correlation (predicted vs pdb):  0.811 <br>
+
+**Further details can be found in the publication:** <br>
+Article <br>
+Title: Prediction of temperature factors in proteins: effect of data pre-processing and experimental conditions <br>
+Jure Pražnikar
