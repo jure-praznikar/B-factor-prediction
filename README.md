@@ -25,4 +25,5 @@ Expected output is: <br>
 **Further details can be found in the publication:** <br>
 *Article* <br>
 **Title:** Prediction of temperature factors in proteins: effect of data pre-processing and experimental conditions <br>
-*Jure Pražnikar*
+Crystals 2025, 15(5), 455; https://doi.org/10.3390/cryst15050455 <br>
+
