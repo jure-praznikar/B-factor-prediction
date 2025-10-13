@@ -13,7 +13,7 @@ GDVallatonce <- function(pdb,kb) {
   IDX[ (xyz[,1] > Xmin & xyz[,1] < Xmax) &
        (xyz[,2] > Ymin & xyz[,2] < Ymax) &
        (xyz[,3] > Zmin & xyz[,3] < Zmax) ]<-TRUE  
-  IDX[kb]<-FALSE # da ni dvojno
+  IDX[kb]<-FALSE # remove duplicate selection
   my.atoms<-rbind(xyz[kb,],xyz[IDX,])
   DDsave<-dist(my.atoms)
   DD<-DDsave*0
@@ -75,7 +75,7 @@ GDVperpartes <- function(pdb,kb) {
       IDX[ (xyz[,1] > Xmin & xyz[,1] < Xmax) &
            (xyz[,2] > Ymin & xyz[,2] < Ymax) &
            (xyz[,3] > Zmin & xyz[,3] < Zmax) ]<-TRUE
-      IDX[kb[myATOM]]<-FALSE # da ni dvojno
+      IDX[kb[myATOM]]<-FALSE # remove duplicate selection
       my.atoms<-rbind(xyz[kb[myATOM],],xyz[IDX,])
       DDsave<-dist(my.atoms)
       DD<-DDsave*0
