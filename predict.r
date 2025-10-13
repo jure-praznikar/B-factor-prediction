@@ -17,7 +17,7 @@ beta <- c( 1.129154e+00,-2.017318e+00,2.022880e-01,-2.954882e+00,-7.716097e-01,
 
 ### BFPR predicted B-factors
 BFPR <- beta0 + dataGDV %*% beta # predicted B-values (linear model)
-CC<-cor(BFPR,BFs) #BFs > scaled and log transform !!!
+CC<-cor(BFPR,BFs,method='spearman') #BFs > scaled and log transform !!!
 cat(data[1,1],' \n')
 cat('------------------------------\n')
 cat('Correlation (predicted vs pdb): ',sprintf("%.3f", CC),'\n')
