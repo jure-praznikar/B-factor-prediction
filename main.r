@@ -23,6 +23,6 @@ source("GDV.r") # output file: protein.dataGDV >> GDV Graphlet Degree Vector
 ### Predict; use linear GDV model
 source("predict.r")
 # ------------------------------
-# Correlation (predicted vs pdb):  0.811 
+# Correlation (predicted vs pdb):  0.809 
 # ------------------------------
 
