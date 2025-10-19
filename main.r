@@ -6,6 +6,7 @@ library(bio3d) # manipulate with pdb files
 library(igraph) # create graphs, ...
 library(pdist) # pairwise distance calcualtion
 library(cry) # crystallographic symmetry
+library(MASS) # ginv: Generalized Inverse of a Matrix
 
 ### FUNCTIONS (required)
 source("FUNC_BIOextract.r") # extract/create bio chains/data
