@@ -16,7 +16,7 @@ source("FUNC_GDV_perpartes_and_all_at_once.r") # create GDV=Graphlet Degree Vect
 source("FUNC_scaleBf.r") # scale B-factors
 
 ### INPUT file - PDB format
-pdbfile<-'protein.pdb'
+pdbfile<-'protein.pdb' # HYDROLASE(O-GLYCOSYL) PDBid: 153L
 
 ### run GDV (create graph, and count orbits per atom >> GDV)
 source("GDV.r") # output file: protein.dataGDV >> GDV Graphlet Degree Vector
