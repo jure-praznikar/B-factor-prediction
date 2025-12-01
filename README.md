@@ -2,8 +2,7 @@
 This R scripts:
 1) Read the PDB file "protein.pdb" <br>
 2) Convert the protein to the graph (cutoff distnce is 7Å) <br>
-3) Count the orbits for each atom to create a feature vector <br> 
-   for each atom. <br>
+3) Creates Graphlet Degree Vector matrix<br>
 5) Use the linear GDV model and GDV matrix to predict the B-factors <br>
 
 **First: Install following R libraries:**
