@@ -1,4 +1,11 @@
 # **B-factor-prediction**
+
+A linear model based on graphlet degree vectors proves to be effective <br>
+not only for the prediction of B-factors and the validation of deposited <br> 
+protein structures but also for the qualitative estimation of <br>
+root-mean-square fluctuations derived from molecular dynamics.
+
+
 This R scripts:
 1) Read the PDB file "protein.pdb" <br>
 2) Convert the protein to the graph (cutoff distnce is 7Å) <br>
