@@ -26,7 +26,7 @@ cat('flagBIO is ',flagBIO,'\n')
 ## SYMM function checkSYM
 ## check if it is possible to extract symmetry matrices directly from PDB header OR
 ## by using cell data and cry lib  
-flagSYM<-checkSYM(pdbfile) # if true, consider close crtsyall contacts
+flagSYM<-checkSYM(pdbfile) # if true, consider close cryst contacts
 #flagSYM<-FALSE  # !! do not use symm. contacts !! Force not to use symmetry contacts
 
 # LIGAND flag
@@ -52,7 +52,7 @@ cat('Time addSMYTatoms:\n')
 print(end_time1-start_time)
 ################################################################################
 ## protein atoms, and no Hydrogens
-# biounit (header info) is lost after trim, that's way is here and not at the begining
+# biounit (header info) is lost after trim, that's whay is here and not at the begining
 indsP <- atom.select(pdb, "protein",chain="9",operator="OR") # !!! LIGAND and NUCLEIC = "9"
 indsH <- atom.select(pdb, "h") # no hydrogen atoms
 indsTRIM <- combine.select(indsP, indsH, operator="-")
