@@ -18,6 +18,7 @@ This R scripts:
 * library(igraph)
 * library(pdist)
 * library(cry)
+* library(MASS)
 
 **To execute (run script from R command line):** 
 > source("main.r")
