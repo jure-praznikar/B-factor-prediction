@@ -26,7 +26,7 @@ This R scripts:
 or run it (main.r) in RStudio.
 
 Expected output is: <br>
-*Correlation (predicted vs pdb):  0.811* <br>
+*Correlation (predicted vs pdb):  0.81* <br>
 
 **Further details can be found in the publication:** <br>
 *Article* <br>
